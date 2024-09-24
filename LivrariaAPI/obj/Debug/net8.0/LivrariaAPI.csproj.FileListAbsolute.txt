@@ -141,3 +141,5 @@ D:\bkp\Documents\Geral\PROGRAMCAO\C#\API-REST-livraria\LivrariaAPI\obj\Debug\net
 D:\bkp\Documents\Geral\PROGRAMCAO\C#\API-REST-livraria\LivrariaAPI\obj\Debug\net8.0\LivrariaAPI.pdb
 D:\bkp\Documents\Geral\PROGRAMCAO\C#\API-REST-livraria\LivrariaAPI\obj\Debug\net8.0\LivrariaAPI.genruntimeconfig.cache
 D:\bkp\Documents\Geral\PROGRAMCAO\C#\API-REST-livraria\LivrariaAPI\obj\Debug\net8.0\ref\LivrariaAPI.dll
+D:\bkp\Documents\Geral\PROGRAMCAO\C#\API-REST-livraria\LivrariaAPI\bin\Debug\net8.0\MySqlConnector.dll
+D:\bkp\Documents\Geral\PROGRAMCAO\C#\API-REST-livraria\LivrariaAPI\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
