@@ -5,3 +5,13 @@ GET {{LivrariaAPI_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+POST http://localhost:5145/api/livros
+Content-Type: application/json
+
+{
+    "titulo": "Senhor dos Aneis",
+    "autor": "J. R. R. Tolkien",
+    "genero": "Fantasia Medieval",
+    "estoque": 10
+}
