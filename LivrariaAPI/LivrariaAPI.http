@@ -1,21 +1,18 @@
 @LivrariaAPI_HostAddress = http://localhost:5145
 
-### Request para WeatherForecast
-GET {{LivrariaAPI_HostAddress}}/weatherforecast/
-Accept: application/json
 
 ###
 
 ### CRUD Livros ###
 
 # GET - Listar todos os livros
-GET {{LivrariaAPI_HostAddress}}/api/livros
+GET http://localhost:5145/api/livros
 Accept: application/json
 
 ###
 
 # POST - Adicionar um novo livro
-POST {{LivrariaAPI_HostAddress}}/api/livros
+POST http://localhost:5145/api/livros
 Content-Type: application/json
 
 {
@@ -28,11 +25,11 @@ Content-Type: application/json
 ###
 
 # PUT - Atualizar um livro existente
-PUT {{LivrariaAPI_HostAddress}}/api/livros/5
+PUT http://localhost:5145/api/livros/8
 Content-Type: application/json
 
 {
-  "id": 1,
+  "id": 8,
   "titulo": "O Hobbit",
   "autor": "J. R. R. Tolkien",
   "genero": "Fantasia",
@@ -42,20 +39,20 @@ Content-Type: application/json
 ###
 
 # DELETE - Excluir um livro existente
-DELETE {{LivrariaAPI_HostAddress}}/api/livros/4
+DELETE http://localhost:5145/api/livros/1
 
 ###
 
 ### CRUD Clientes ###
 
 # GET - Listar todos os clientes
-GET {{LivrariaAPI_HostAddress}}/api/clientes
+GET http://localhost:5145/api/clientes
 Accept: application/json
 
 ###
 
 # POST - Adicionar um novo cliente
-POST {{LivrariaAPI_HostAddress}}/api/clientes
+POST http://localhost:5145/api/clientes
 Content-Type: application/json
 
 {
@@ -66,38 +63,39 @@ Content-Type: application/json
 ###
 
 # PUT - Atualizar um cliente existente
-PUT {{LivrariaAPI_HostAddress}}/api/clientes/1
+PUT http://localhost:5145/api/clientes/1
 Content-Type: application/json
 
 {
   "id": 1,
-  "nome": "João Silva Atualizado",
-  "email": "joao.silva@email.com"
+  "nome": "Adam Sandler",
+  "email": "adam.sandler@email.com"
 }
 
 ###
 
 # DELETE - Excluir um cliente existente
-DELETE {{LivrariaAPI_HostAddress}}/api/clientes/1
+DELETE http://localhost:5145/api/clientes/1
 
 ###
 
 ### CRUD Pedidos ###
 
 # GET - Listar todos os pedidos
-GET {{LivrariaAPI_HostAddress}}/api/pedidos
+GET http://localhost:5145/api/pedidos
 Accept: application/json
 
 ###
 
 # POST - Adicionar um novo pedido
-POST {{LivrariaAPI_HostAddress}}/api/pedidos
+POST http://localhost:5145/api/pedidos
 Content-Type: application/json
 
 {
   "clienteId": 1,
   "livros": [
-    { "id": 7 }
+    { "id": 8 }
+    { "id": 9 }
   ],
   "dataPedido": "2024-09-24T00:00:00"
 }
@@ -105,7 +103,7 @@ Content-Type: application/json
 ###
 
 # PUT - Atualizar um pedido existente
-PUT {{LivrariaAPI_HostAddress}}/api/pedidos/1
+PUT http://localhost:5145/api/pedidos/1
 Content-Type: application/json
 
 {
@@ -120,4 +118,4 @@ Content-Type: application/json
 ###
 
 # DELETE - Excluir um pedido existente
-DELETE {{LivrariaAPI_HostAddress}}/api/pedidos/1
+DELETE http://localhost:5145/api/pedidos/1
