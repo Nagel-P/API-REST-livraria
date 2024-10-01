@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LivrariaAPI.Migrations
 {
     [DbContext(typeof(LivrariaContext))]
-    [Migration("20240924144726_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20240924201434_AddClientesAndPedidos")]
+    partial class AddClientesAndPedidos
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\bkp\\Documents\\Geral\\PROGRAMCAO\\C#\\API-REST-livraria\\LivrariaAPI\\LivrariaAPI.csproj": {}
+    "D:\\bkp\\Documents\\Geral\\PROGRAMACAO\\C#\\API-REST-livraria\\LivrariaAPI\\LivrariaAPI.csproj": {}
   },
   "projects": {
-    "D:\\bkp\\Documents\\Geral\\PROGRAMCAO\\C#\\API-REST-livraria\\LivrariaAPI\\LivrariaAPI.csproj": {
+    "D:\\bkp\\Documents\\Geral\\PROGRAMACAO\\C#\\API-REST-livraria\\LivrariaAPI\\LivrariaAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\bkp\\Documents\\Geral\\PROGRAMCAO\\C#\\API-REST-livraria\\LivrariaAPI\\LivrariaAPI.csproj",
+        "projectUniqueName": "D:\\bkp\\Documents\\Geral\\PROGRAMACAO\\C#\\API-REST-livraria\\LivrariaAPI\\LivrariaAPI.csproj",
         "projectName": "LivrariaAPI",
-        "projectPath": "D:\\bkp\\Documents\\Geral\\PROGRAMCAO\\C#\\API-REST-livraria\\LivrariaAPI\\LivrariaAPI.csproj",
+        "projectPath": "D:\\bkp\\Documents\\Geral\\PROGRAMACAO\\C#\\API-REST-livraria\\LivrariaAPI\\LivrariaAPI.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\bkp\\Documents\\Geral\\PROGRAMCAO\\C#\\API-REST-livraria\\LivrariaAPI\\obj\\",
+        "outputPath": "D:\\bkp\\Documents\\Geral\\PROGRAMACAO\\C#\\API-REST-livraria\\LivrariaAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
