@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uhVvFeIOVR+uhJ8FbG0LPPHjclNbFJV3o6bxXNLFizX14Uu9/JUo+CKRWc2MbfJB31sM5b2RhAaou6cdkHYDnA==",
+  "dgSpecHash": "jAsdsLjGeSUwVIMeXQIelrW4+NksBbHe61uexFwh5gOsbwY8N8pXfFaFG3z/brO6TKxqghGCh7a3RP4Qh6tAoQ==",
   "success": true,
-  "projectFilePath": "D:\\bkp\\Documents\\Geral\\PROGRAMCAO\\C#\\API-REST-livraria\\LivrariaAPI\\LivrariaAPI.csproj",
+  "projectFilePath": "D:\\bkp\\Documents\\Geral\\PROGRAMACAO\\C#\\API-REST-livraria\\LivrariaAPI\\LivrariaAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
