@@ -19,6 +19,9 @@ namespace LivrariaAPI.Controller
             _context = context;
         }
 
+
+        //cringe
+
         // GET: api/livros
         [HttpGet]
         public ActionResult<IEnumerable<Livro>> GetLivros()
